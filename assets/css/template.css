@@ -9,6 +9,9 @@ html {
 }
 body{
     background: #e0e8ff url("../images/pattern-background-desktop.svg") no-repeat right top fixed;
+    position: top;
+    object-fit: contain;
+
 }
 .conteiner {
     display: flex;
@@ -81,12 +84,15 @@ main {
     color:hsl(224, 23%, 55%);
     font-size: 0.93rem;
 }
-.plan a {
+button {
     align-self: center;
     margin-left: 5rem;
     font-size: 0.81rem;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+
 }
-.plan a:hover {
+button:hover {
     text-decoration: none;
     color: hsl(245, 75%, 52%);
 }
